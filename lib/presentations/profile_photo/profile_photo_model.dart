@@ -18,7 +18,7 @@ class ProfilePhotoModel extends ChangeNotifier {
     photoFile = File(pickedPhoto.path);
     //UIDごとに画像をcloud storageに保存する
     StorageReference reference =
-        FirebaseStorage.instance.ref().child("profileImages/${uid}");
+        FirebaseStorage.instance.ref().child("images/");
     StorageUploadTask uploadTask = reference.putFile(photoFile);
     final downloadUrl =
         await (await uploadTask.onComplete).ref.getDownloadURL();
