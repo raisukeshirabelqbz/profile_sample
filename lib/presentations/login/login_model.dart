@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:profilesample/profile/profile_page.dart';
+import 'package:profilesample/presentations/profile/profile_page.dart';
 
 class LoginModel extends ChangeNotifier {
   String mail = '';

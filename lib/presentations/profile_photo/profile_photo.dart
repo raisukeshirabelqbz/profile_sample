@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:profilesample/profile/profile_photo_model.dart';
+import 'package:profilesample/presentations/profile_photo/profile_photo_model.dart';
 import 'package:provider/provider.dart';
 
 class ProfilePhoto extends StatelessWidget {

@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:profilesample/login/login_model.dart';
-import 'package:profilesample/signup/signup_page.dart';
+import 'package:profilesample/presentations/login/login_model.dart';
+import 'package:profilesample/presentations/signup/signup_page.dart';
 import 'package:provider/provider.dart';
 
 class LoginPage extends StatelessWidget {
