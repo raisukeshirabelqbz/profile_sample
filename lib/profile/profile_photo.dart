@@ -8,7 +8,7 @@ class ProfilePhoto extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<ProfilePhotoModel>(
-      create: (_) => ProfilePhotoModel()..getPhotoUrl(),
+      create: (_) => ProfilePhotoModel(),
       child: Consumer<ProfilePhotoModel>(
         builder: (context, model, child) {
           return FlatButton(
